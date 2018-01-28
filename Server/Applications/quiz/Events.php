@@ -20,12 +20,12 @@
 //declare(ticks=1);
 
 use \GatewayWorker\Lib\Gateway;
+
 require_once 'Controllers/CoreIncomingController.php';
 require_once 'Controllers/HardwareIncomingController.php';
 require_once 'Controllers/MonitorIncomingController.php';
 
 require_once 'Config/ProtocolConstant.php';
-
 
 /**
  * 主逻辑
@@ -52,22 +52,21 @@ class Events
     * @param int $client_id 连接id
     * @param mixed $message 具体消息
     */
-   public static function onMessage($client_id, $message) {
-        //根据type 转发协议做不同的处理
+    public static function onMessage($client_id, $message) {
+        // 根据type 转发协议做不同的处理
         // type=core 是从中央处理器过来的请求
         // type=monitor 是从监控页面过来的websocket请求
         // type=hardware 是从硬件过来的请求
         var_dump($message);
-       $type = ProtocolConstant::PROTOCOL_TYPE_MONITOR;
-       if(!isset($message["type"])) { // websocket
-           $message = json_decode($message, true);
-           $message["type"] = ProtocolConstant::PROTOCOL_TYPE_MONITOR;
-       } else {
-           $type = $message["type"];
-       }
+        $type = ProtocolConstant::PROTOCOL_TYPE_MONITOR;
+        if(!isset($message["type"])) { // websocket
+          $message = json_decode($message, true);
+          $message["type"] = ProtocolConstant::PROTOCOL_TYPE_MONITOR;
+        } else {
+          $type = $message["type"];
+        }
         
-
-        if($type == ProtocolConstant::PROTOCOL_TYPE_HARDWARE) {
+        if ($type == ProtocolConstant::PROTOCOL_TYPE_HARDWARE) {
             $hardwareController = new HardwareIncomingController();
             $hardwareController->handleRequest($client_id, $message);
         } else if($type == ProtocolConstant::PROTOCOL_TYPE_MONITOR) {
@@ -76,8 +75,8 @@ class Events
         } else if($type == ProtocolConstant::PROTOCOL_TYPE_CORE) {
           $coreController = new CoreIncomingController();
           $coreController->handleRequest($message);
-
         }
+
         // if($type == "hardware") {
         //     if($cmd == 100) {
         //       $buffer = pack('CnCCCCn', 0xFE, 1, 0, intval($device_addr), $frame_seq, 101, 0);
@@ -90,53 +89,53 @@ class Events
 
         //     }
         // } 
-   }
+    }
    
-   /**
-    * 当用户断开连接时触发
-    * @param int $client_id 连接id
-    */
-   public static function onClose($client_id) {
-       // 向所有人发送 
-       GateWay::sendToAll("$client_id logout");
-   }
+    /**
+      * 当用户断开连接时触发
+      * @param int $client_id 连接id
+      */
+    public static function onClose($client_id) 
+    {
+      // 向所有人发送 
+      GateWay::sendToAll("$client_id logout");
+    }
 
+    private static function hexToStr($hex)//十六进制转字符串
+    {   
+      $string = ""; 
+      for($i = 0; $i < strlen($hex) - 1; $i += 2)
+        $string .= chr(hexdec($hex[$i].$hex[$i+1]));
+      return $string;
+    }
 
- private static function hexToStr($hex)//十六进制转字符串
-{   
-$string=""; 
-for($i=0;$i<strlen($hex)-1;$i+=2)
-$string.=chr(hexdec($hex[$i].$hex[$i+1]));
-return  $string;
-}
-
-private static function hex_dump($data, $newline="n") 
-{ 
-  static $from = ''; 
-  static $to = ''; 
-  
-  static $width = 16; # number of bytes per line 
-  
-  static $pad = '.'; # padding for non-visible characters 
-  
-  if ($from==='') 
-  { 
-    for ($i=0; $i<=0xFF; $i++) 
+    private static function hex_dump($data, $newline = "n") 
     { 
-      $from .= chr($i); 
-      $to .= ($i >= 0x20 && $i <= 0x7E) ? chr($i) : $pad; 
+      static $from = ''; 
+      static $to = ''; 
+    
+      static $width = 16; # number of bytes per line 
+    
+      static $pad = '.'; # padding for non-visible characters 
+    
+      if ($from==='') 
+      { 
+        for ($i=0; $i<=0xFF; $i++) 
+        { 
+          $from .= chr($i); 
+          $to .= ($i >= 0x20 && $i <= 0x7E) ? chr($i) : $pad; 
+        } 
+      } 
+    
+      $hex = str_split(bin2hex($data), $width*2); 
+      $chars = str_split(strtr($data, $from, $to), $width); 
+      
+      $offset = 0; 
+      foreach ($hex as $i => $line) 
+      { 
+        echo sprintf('%6X',$offset).' : '.implode(' ', str_split($line,2)) . ' [' . $chars[$i] . ']' . $newline; 
+        $offset += $width; 
+      } 
     } 
-  } 
-  
-  $hex = str_split(bin2hex($data), $width*2); 
-  $chars = str_split(strtr($data, $from, $to), $width); 
-  
-  $offset = 0; 
-  foreach ($hex as $i => $line) 
-  { 
-    echo sprintf('%6X',$offset).' : '.implode(' ', str_split($line,2)) . ' [' . $chars[$i] . ']' . $newline; 
-    $offset += $width; 
-  } 
-} 
 }
 

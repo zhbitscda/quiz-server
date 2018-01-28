@@ -2,12 +2,12 @@
 
 
 class ProtocolConstant {
+
 	const PROTOCOL_TYPE_HARDWARE = "hardware"; // 硬件协议标识
 	const PROTOCOL_TYPE_MONITOR  = "monitor"; // 硬件协议标识
 	const PROTOCOL_TYPE_CORE = "core"; // 硬件协议标识
 
-
-// 中央处理器发送过来的命令类型
+    // 中央处理器发送过来的命令类型
 	const CORE_CMD_OPEN_GATE	    = 1; 	// 开闸请求
 	const CORE_CMD_PLAY_VOICE	    = 2;	// 播放语音
 	const CORE_CMD_SHOW_LED	        = 3;	// 显示LED

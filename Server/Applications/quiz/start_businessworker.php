@@ -21,7 +21,6 @@ use \Workerman\Autoloader;
 require_once __DIR__ . '/../../Workerman/Autoloader.php';
 Autoloader::setRootPath(__DIR__);
 
-
 // bussinessWorker 进程
 $worker = new BusinessWorker();
 // worker名称
