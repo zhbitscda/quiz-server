@@ -1,0 +1,104 @@
+错误码说明文档
+----
+
+错误码         | 说明
+------------- | -------------
+-1001         | 参数错误
+-1002         | 数据库执行失败
+-1003         | accessToken 为空
+-1004         | 服务器验证 accessToken 失败
+-1005         | 配置不一致错误
+-1006         | 服务器维护中
+-1101         | operatorId 为空
+-1102         | operatorId 不存在
+-1111         | 用户名为空
+-1112         | 用户名已经存在
+-1113         | 密码为空
+-1114         | 账号或密码错误
+-1201         | roleId 为空
+-1202         | roleId 不存在
+-1203         | roleId 已被使用
+-1211         | roleName 为空
+-1212         | roleName 已存在
+-1301         | permissionId 为空
+-1302         | permissionId 已被使用
+-1311         | permissions 为空
+-1312         | permissions 有误
+-1401         | cardId 为空
+-1402         | cardId 不存在
+-1403         | cardId 已经被使用
+-1411         | property 为空
+-1412         | property 格式有误
+-1413         | deposit 为空
+-1414         | deposit 格式有误
+-1415         | printNo 为空
+-1416         | status 为空
+-1417         | status 格式有误
+-1420         | 未开通车停卡功能
+-1421         | cardTypeId 为空
+-1422         | cardTypeId 不存在
+-1431         | times 为空
+-1432         | times 格式有误
+-1433         | balance 为空
+-1434         | balance 格式有误
+-1435         | boxRight 为空
+-1436         | isNote 为空
+-1437         | isNote 格式有误
+-1438         | remark 为空
+-1439         | beginDate 为空
+-1440         | endDate 为空
+-1501         | carId 为空
+-1502         | carId 不存在
+-1511         | carTypeId 为空
+-1512         | carTypeId 不存在
+-1521         | carLocId 为空
+-1522         | carLocId 不存在
+-1531         | carPhotoId 为空
+-1532         | carPhotoId 不存在
+-1541         | carNum 为空
+-1542         | 车牌已存在
+-1543         | carColor 为空
+-1544         | parkingPlace为空
+-1551         | oldCardId 为空
+-1552         | oldCardId 不存在
+-1553         | newCardId 为空
+-1554         | newCardId 已存在
+-1601         | userId 为空
+-1602         | userId 不存在
+-1701         | boxId 为空
+-1702         | boxId 不存在
+-1711         | boxDoorsRight 为空
+-1712         | boxDoorsRight 错误
+-1713         | boxName为空
+-1714         | boxName重复
+-1715         | boxLocation为空
+-1716         | box status格式有误
+-1717         | box status为空
+-1718         | 该岗亭下的岗亭口被使用
+-1721         | boxDoorId 为空
+-1722         | boxDoorId 不存在
+-1723         | boxDoorName为空
+-1724         | boxDoorName重复
+-1725         | boxDoor function为空
+-1726         | boxDoor function格式有误
+-1727         | boxDoor type为空
+-1728         | boxDoor type格式有误
+-1729         | boxDoor status为空
+-1730         | boxDoor status格式有误
+-1731         | boxDoor被使用
+-1732         | boxCompId 有误
+-1733         | isCheck 格式有误
+-1734         | isTempIn 格式有误
+-1735         | isTempOut 格式有误
+-1736         | cardRights 格式有误
+-1801         | deviceId 为空
+-1802         | deviceId 不存在
+-1803         | deviceId 正在使用中
+-1804         | deviceName 为空
+-1805         | deviceName 重复
+-1806         | deviceIP 为空
+-1807         | deviceIP 格式有误
+-1808         | deviceMac 为空
+-1809         | deviceMac 格式有误
+-1810         | deviceType 为空
+-1811         | deviceType 格式有误

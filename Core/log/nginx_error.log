@@ -1,0 +1,172 @@
+2016/09/10 06:57:17 [error] 966#0: *67 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:57:32 [error] 966#0: *69 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:57:48 [error] 966#0: *69 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:57:51 [error] 966#0: *69 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:59:00 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:59:03 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:59:04 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:59:05 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:59:06 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:59:09 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 06:59:44 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 07:00:45 [error] 3403#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /data/code/sinihi-core/vendor/laravel/lumen-framework/src/Exceptions/Handler.php(45): Monolog\Logge...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/code/sinihi-core/storage/logs/lumen-2016-09-10.log" could not be opened: failed to open stream: Permission denied' in /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(107): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/code/sinihi-core/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/cod
+2016/09/10 07:01:35 [error] 3403#0: *31 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'UserError' not found in /data/code/sinihi-core/vendor/oauth2-server-php/src/OAuth2/ClientAssertionType/HttpBasic.php on line 67" while reading response header from upstream, client: 192.168.1.1, server: 192.168.1.90, request: "POST /operator/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "sinihi.qnoddns.org.cn:8080", referrer: "http://192.168.1.90:8081/login.html"
+2016/09/10 07:02:00 [error] 3403#0: *31 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'UserError' not found in /data/code/sinihi-core/vendor/oauth2-server-php/src/OAuth2/ClientAssertionType/HttpBasic.php on line 67" while reading response header from upstream, client: 192.168.1.1, server: 192.168.1.90, request: "POST /operator/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "sinihi.qnoddns.org.cn:8080", referrer: "http://192.168.1.90:8081/login.html"
+2016/09/11 07:44:32 [error] 3404#0: *1867 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /data/code/sinihi-core/app/Http/Controllers/AdmissionController.php on line 2074" while reading response header from upstream, client: 192.168.1.223, server: 192.168.1.90, request: "GET /admission/flow HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.90:8080"
+2016/09/11 07:44:57 [error] 3404#0: *1867 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /data/code/sinihi-core/app/Http/Controllers/AdmissionController.php on line 2074" while reading response header from upstream, client: 192.168.1.223, server: 192.168.1.90, request: "GET /admission/flow HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.90:8080"
